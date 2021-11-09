@@ -5,7 +5,7 @@
 		<label for="no_employee" class="col-sm-2 col-form-label">No Karyawan</label>
 		<div class="col-sm-6">
 			<input type="text" class="form-control" name="no_employee" id="no_employee" >
-			<small>No karyawan harus 18 digit.</small>
+			<small><span style="color: red;">*</span> No. Harus Unik</small>
 			<?= form_error('no_employee', '<small class="text-danger mt-1">', '</small>'); ?>
 		</div>
 	</div>
