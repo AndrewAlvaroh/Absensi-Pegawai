@@ -10,7 +10,7 @@
 <form action="" method="POST">
 
 	<div class="card">
-		<h5 class="card-header">Entri Kehadiran</h5>
+		<h5 class="card-header">Konfirmasi Kehadiran</h5>
 		<div class="card-body">	
 			<div class="form-group row">
 				<label for="time" class="col-sm-2 col-form-label">Jam</label>
