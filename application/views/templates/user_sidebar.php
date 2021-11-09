@@ -2,7 +2,7 @@
 
 	<!-- Sidebar - Brand -->
 	<a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('user') ?>">
-		LOGO
+	PT. Tanam Hias Jakarta
 	</a>
 
 	<!-- Divider -->
