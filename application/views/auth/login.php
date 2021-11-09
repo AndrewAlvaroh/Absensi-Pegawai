@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
   <meta charset="utf-8">
@@ -8,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
-  <title>Puskesmas - Login</title>
+  <link rel="icon" href="image/logot.png">
+  <title>Narutalisme - Login</title>
 
   <!-- Custom fonts for this template-->
   <link href="<?= base_url('assets/') ?>vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -20,7 +19,7 @@
 
 </head>
 
-<body class="bg-gradient-success">
+<body style="background: #CEE5D0">
 
   <div class="container">
 
@@ -34,9 +33,11 @@
             <!-- Nested Row within Card Body -->
             <div class="row">
 					<div class="col">
-						<div class="p-5">
+						<div class="p-5"> 
 							<div class="text-center">
-								<h1 class="h4 text-gray-900 mb-4">Selamat Datang</h1>
+                <h2 class="text-dark">Welcome</h2>
+								<h1 class="h4 text-gray-900 mb-4">PT. Tanam Hias Jakarta</h1>
+                <img src="image/logot.png" alt="logo" style="height: 150px">
 							</div>
 
 							<?= $this->session->flashdata('message') ?>
@@ -51,7 +52,7 @@
 									<?= form_error('password', '<small class="text-danger ml-3 mt-1">', '</small>'); ?>
 								</div>
 								
-								<button type="submit" class="btn btn-success btn-user btn-block">
+								<button type="submit" class="btn btn-primary btn-user btn-block">
 									Login
 								</button>
 							</form>
