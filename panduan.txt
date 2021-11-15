@@ -4,8 +4,8 @@
 3. buat database baru dengan nama "db_absensi" (tanpa tanda kutip)
 4. klik "db_absensi" nya klo udah berhasil dibuat, lalu klik tab "import"
 5. klik tombol "browse", lalu pilih file "db_absensi.sql"
-6. copy folder "absensi-puskesmas" ke "C:\xampp\htdocs"
-6. klo udah berhasil, ketik url di browser "localhost/absensi-puskesmas/"
+6. copy folder "absensi-pegawai" ke "C:\xampp\htdocs"
+6. klo udah berhasil, ketik url di browser "localhost/absensi-pegawai/"
 7. selesai
 
 #Login
